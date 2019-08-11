@@ -1,6 +1,8 @@
-int outputFormat = getOutputFormatFromString(recordingSettings.getString("OutputFormat"));
+
       recorder.setOutputFormat(MediaRecorder.OutputFormat.RAW_AMR);
       
+      recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
       
+      https://stackoverflow.com/questions/10007834/android-media-recorder-start-failed-exception
       
-line 123, 124 AudioRecorderManager.java   <--- react-native-audio
+line 124, 126 AudioRecorderManager.java   <--- react-native-audio
