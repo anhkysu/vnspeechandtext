@@ -6,3 +6,4 @@
       https://stackoverflow.com/questions/10007834/android-media-recorder-start-failed-exception
       
 line 124, 126 AudioRecorderManager.java   <--- react-native-audio
+aac, aac_eld, amr_nb, amr_wb, he_aac, vorbis
