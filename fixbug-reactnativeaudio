@@ -1,0 +1,6 @@
+int outputFormat = getOutputFormatFromString(recordingSettings.getString("OutputFormat"));
+      recorder.setOutputFormat(MediaRecorder.OutputFormat.RAW_AMR);
+      
+      
+      
+line 123, 124 AudioRecorderManager.java   <--- react-native-audio
